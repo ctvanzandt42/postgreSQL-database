@@ -1,0 +1,1 @@
+First experimentation with SQL, using postgreSQL. Week 7 Monday. A basic to-do list made into a database. 
