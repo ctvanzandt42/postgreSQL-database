@@ -3,8 +3,8 @@ create table todo (
     title VARCHAR(255) NOT NULL,
     details TEXT NULL,
     priority INTEGER NOT NULL DEFAULT 1,
-    created_at VARCHAR(100) NOT NULL,
-    completed_at VARCHAR(100) NULL
+    created_at  TIMESTAMP WITHOUT TIME ZONE NULL,
+    completed_at TIMESTAMP WITHOUT TIME ZONE NULL
 );
 
 insert into todo (title, priority, created_at, completed_at)
